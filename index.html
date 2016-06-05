@@ -4,6 +4,12 @@ layout: default
 
 <div class="home">
 
+  <div class="blog-index">  
+    {% assign post = site.posts.first %}
+    {% assign content = post.content %}
+    {% include post_detail.html %}
+  </div>
+
   <h1 class="page-heading">Posts published</h1>
 
   <ul class="post-list">
