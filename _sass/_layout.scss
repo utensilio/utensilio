@@ -2,37 +2,39 @@
  * Site header
  */
 .site-header {
-    border-bottom: 1px solid $grey-color-light;
+
     min-height: 56px;
 
     // Positioning context for the mobile navigation icon
     position: relative;
 }
 
+.site-header .wrapper {
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
 .site-title {
-    color: $grey-color-dark;
+    color: black;
     font-size: 26px;
     font-weight: 900;
     line-height: 56px;
     letter-spacing: -1px;
-    margin-bottom: 0;
-    float: left;
-
+    margin: 0 10%;
     &:hover {
-      color: lighten($grey-color-dark, 8%);
+      color: lighten(black, 8%);
     }
 }
 
 .site-nav {
-    float: right;
     line-height: 56px;
-
+    padding: 0 10%;
     .menu-icon {
         display: none;
     }
 
     .page-link {
-        color: $text-color;
+        color: rgba(0, 0, 0, 0.6);
+        font-weight: 600;;
         line-height: $base-line-height;
 
         // Gaps between nav items, but not on the last one
@@ -41,54 +43,7 @@
         }
     }
 
-    @include media-query($on-palm) {
-        position: absolute;
-        top: 9px;
-        right: $spacing-unit / 2;
-        background-color: $background-color;
-        border: 1px solid $grey-color-light;
-        border-radius: 5px;
-        text-align: right;
 
-        .menu-icon {
-            display: block;
-            float: right;
-            width: 36px;
-            height: 26px;
-            line-height: 0;
-            padding-top: 10px;
-            text-align: center;
-
-            > svg {
-                width: 18px;
-                height: 15px;
-
-                path {
-                    fill: $grey-color-dark;
-                }
-            }
-        }
-
-        .trigger {
-            clear: both;
-            display: none;
-        }
-
-        &:hover .trigger {
-            display: block;
-            padding-bottom: 5px;
-        }
-
-        .page-link {
-            display: block;
-            padding: 5px 10px;
-
-            &:not(:last-child) {
-                margin-right: 0;
-            }
-            margin-left: 20px;
-        }
-    }
 }
 
 
@@ -167,16 +122,18 @@
  * Page content
  */
 .page-content {
-    padding: $spacing-unit 0;
+    padding: 0;
 }
 
 .page-heading {
-    font-size: 20px;
+    font-size: 1rem;
+    padding: 0 10%;
 }
 
 .post-list {
     margin-left: 0;
     list-style: none;
+    padding: 0 10%;
 
     > li {
         margin-bottom: $spacing-unit;
@@ -189,7 +146,7 @@
 }
 
 .post-link {
-    display: block;
+    display: inline;
     font-size: 24px;
 }
 
@@ -214,6 +171,7 @@
 
 .post-content {
     margin-bottom: $spacing-unit;
+    padding: 0 10%;
 
     h2 {
         font-size: 32px;

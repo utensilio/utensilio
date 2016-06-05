@@ -1,0 +1,28 @@
+---
+layout: post
+title:  "Semana 03"
+date:   2016-06-04 22:15:00
+categories: jekyll update
+---
+## [Valentina, una didona muy castellana](http://pedroarilla.com/es/valentina)  
+[**_pedroarilla.com_**](http://pedroarilla.com)
+
+---
+
+## [Técnicas y trucos del dibujo vectorial con apoyo al 3D](http://www.etereaestudios.com/training_img/vectorial_tips/index.htm)  
+[**_etereaestudios.com_**](http://www.etereaestudios.com)
+
+---
+
+## [Mujeres en el diseño gráfico](https://www.typotheque.com/articles/mujeres_en_el_diseno_grafico)  
+[**_typotheque.com_**](https://www.typotheque.com)
+
+---
+
+## [Accesibilidad y diseño para todos en la ciudad](http://foroalfa.org/articulos/accesibilidad-y-diseno-para-todos-en-la-ciudad)  
+[**_foroalfa.org_**](http://foroalfa.org)
+
+---
+
+## [Hoefler & Co. presentan Operator](http://www.unostiposduros.com/hoefler-co-presentan-operator-su-primera-familia-monoespaciada/)  
+[**_unostiposduros.com_**](http://www.unostiposduros.com)

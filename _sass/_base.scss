@@ -1,6 +1,11 @@
 /**
  * Reset some basic elements
  */
+
+* {
+  box-sizing: border-box;
+}
+
 body, h1, h2, h3, h4, h5, h6,
 p, blockquote, pre, hr,
 dl, dd, ol, ul, figure {
@@ -15,14 +20,8 @@ dl, dd, ol, ul, figure {
  */
 body {
     font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
-    color: $grey-color-dark;
-    background-color: $background-color;
-    -webkit-text-size-adjust: 100%;
-    -webkit-font-feature-settings: "kern" 1;
-    -moz-font-feature-settings: "kern" 1;
-    -o-font-feature-settings: "kern" 1;
-    font-feature-settings: "kern" 1;
-    font-kerning: normal;
+    color: black;
+    background: #EAEAEA;
 }
 
 
@@ -87,6 +86,8 @@ h1, h2, h3, h4, h5, h6 {
 .entry-content h2 {
   margin-bottom: 0;
   margin-top: 1rem;
+  padding: 0 10%;
+  font-size: 1rem;
 }
 
 .title-week {
@@ -100,12 +101,13 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-    color: $brand-color;
+    color: black;
     text-decoration: none;
-    transition: color .3s;
+    font-weight: bold;
 
     &:hover {
-        color: lighten($brand-color, 8%);
+        color: lighten(black, 8%);
+        background: rgb(255, 250, 168);
     }
 }
 
@@ -113,14 +115,15 @@ a {
   Links to Utensilios
 */
 
-a strong em {
+.entry-content p {
+  padding: 0 10%;
+}
+
+.entry-content a strong em {
   font-weight: normal;
   font-style: normal;
   color: rgba(0, 0, 0, .5);
-  transition: color .3s;
-  &:hover {
-      color: rgba(0, 0, 0, .4);
-  }
+
 }
 
 
@@ -173,21 +176,30 @@ pre {
 /**
  * Wrapper
  */
+
+
 .wrapper {
     max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
     max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
     margin-right: auto;
     margin-left: auto;
-    padding-right: $spacing-unit;
-    padding-left: $spacing-unit;
+    // padding-right: $spacing-unit;
+    // padding-left: $spacing-unit;
+    background: white;
     @extend %clearfix;
+    overflow: hidden;
 
     @include media-query($on-laptop) {
         max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
         max-width:         calc(#{$content-width} - (#{$spacing-unit}));
-        padding-right: $spacing-unit / 2;
-        padding-left: $spacing-unit / 2;
+        // padding-right: $spacing-unit / 2;
+        // padding-left: $spacing-unit / 2;
     }
+}
+
+.site-footer .wrapper {
+  background: none;
+  padding: 0 2rem;
 }
 
 
@@ -238,6 +250,48 @@ pre {
 /**
  * Miscelaneos
  */
+
+#mc_embed_signup {
+  padding: 2rem 10%;
+  margin: 2rem 0;
+  border-top: 1px solid rgba(0,0,0,0.1);
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+#mc_embed_signup .page-heading {
+  padding: 0;
+}
+
+input {
+  outline: none;
+  border: 0;
+  padding: 1rem 1.5rem;
+  font-size: 1rem;
+  width: 100%;
+  text-align: left;
+  font-family: inherit;
+}
+
+input[type="email"] {
+  background: rgba(0,0,0,1);
+  color: white;
+  &:hover {
+    background: rgba(0,0,0,0.85);
+  }
+}
+
+input[type="submit"] {
+  background: $brand-color;
+  color: white;
+  font-weight: 700;
+  margin-top: .5rem;
+  cursor: pointer;
+  &:hover {
+    background: lighten($brand-color, 8%);
+  }
+}
+
+
 
 hr {
   border: none;
