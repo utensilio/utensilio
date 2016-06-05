@@ -15,7 +15,7 @@ dl, dd, ol, ul, figure {
  */
 body {
     font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
-    color: $text-color;
+    color: $grey-color-dark;
     background-color: $background-color;
     -webkit-text-size-adjust: 100%;
     -webkit-font-feature-settings: "kern" 1;
@@ -36,7 +36,6 @@ ul, ol, dl, figure,
 %vertical-rhythm {
     margin-bottom: $spacing-unit / 2;
 }
-
 
 
 /**
@@ -79,13 +78,23 @@ li {
 
 
 /**
- * Headings
+ * Headings and Titles
  */
 h1, h2, h3, h4, h5, h6 {
     font-weight: $base-font-weight;
 }
 
+.entry-content h2 {
+  margin-bottom: 0;
+  margin-top: 1rem;
+}
 
+.title-week {
+  font-size: 1.15rem;
+  color: $grey-color-dark;
+  // font-weight: 700;
+  // color: rgba(0,0,0,.5);
+}
 
 /**
  * Links
@@ -93,17 +102,26 @@ h1, h2, h3, h4, h5, h6 {
 a {
     color: $brand-color;
     text-decoration: none;
-
-    &:visited {
-        color: darken($brand-color, 15%);
-    }
+    transition: color .3s;
 
     &:hover {
-        color: $text-color;
-        text-decoration: underline;
+        color: lighten($brand-color, 8%);
     }
 }
 
+/**
+  Links to Utensilios
+*/
+
+a strong em {
+  font-weight: normal;
+  font-style: normal;
+  color: rgba(0, 0, 0, .5);
+  transition: color .3s;
+  &:hover {
+      color: rgba(0, 0, 0, .4);
+  }
+}
 
 
 /**
@@ -203,4 +221,25 @@ pre {
             fill: $grey-color;
         }
     }
+}
+
+/**
+ * Post List
+ */
+
+.post-list li:first-of-type {
+  display: none;
+}
+
+.archive .post-list li:first-of-type {
+  display: block;
+}
+
+/**
+ * Miscelaneos
+ */
+
+hr {
+  border: none;
+  border-bottom: 1px solid rgba(0,0,0,0.1);
 }

@@ -2,21 +2,12 @@
 layout: default
 ---
 
-<div class="home">
+<div class="home archive">
 
-  <div class="blog-index">
-    <h1 class="title-week">Esta semana</h1>
-    {% assign post = site.posts.first %}
-    {% assign content = post.content %}
-    {% include post_detail.html %}
-  </div>
-<br>
-<br>
-<br>
-  <h1 class="page-heading">Anteriores</h1>
+  <h1 class="page-heading">Archivo</h1>
 
   <ul class="post-list">
-    {% for post in site.posts limit:3 %}
+    {% for post in site.posts %}
       <li>
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 

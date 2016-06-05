@@ -1,15 +1,11 @@
 ---
 layout: page
-title: About
-permalink: /about/
+title: Acerca
+permalink: /acerca/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+Utensilio es una lista curada de artículos, tips, experimentos, conceptos, recursos y más temas relacionados al diseño, actualizada una cada semana.
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jglovier" %} /
-[jekyll-new](https://github.com/jglovier/jekyll-new)
+Este es un proyecto personal mantenido –durante su tiempo libre– por Alejandro León _alias_ [@alelepd](https://twitter.com/alelepd), apasionado sobre el diseño en la mayoría de sus facetas (aunque parcializado algunas veces).
 
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+Puedes suscribirte al boletín de noticias y recibir todos los domingos un resumen de los artículos publicados en la semana.
