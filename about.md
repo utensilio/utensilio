@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Acerca
-permalink: /acerca/
+title: info
+permalink: /info/
 ---
 
 Utensilio es una lista curada de artículos, tips, experimentos, conceptos, recursos y más temas relacionados al diseño, actualizada una cada semana.

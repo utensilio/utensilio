@@ -83,18 +83,19 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: $base-font-weight;
 }
 
+.entry-content {
+  padding: 0 10%;
+}
+
 .entry-content h2 {
   margin-bottom: 0;
   margin-top: 1rem;
-  padding: 0 10%;
   font-size: 1rem;
 }
 
 .title-week {
   font-size: 1.15rem;
   color: $grey-color-dark;
-  // font-weight: 700;
-  // color: rgba(0,0,0,.5);
 }
 
 /**
@@ -115,11 +116,7 @@ a {
   Links to Utensilios
 */
 
-.entry-content p {
-  padding: 0 10%;
-}
-
-.entry-content a strong em {
+.entry-content a strong em, .post-content a strong em  {
   font-weight: normal;
   font-style: normal;
   color: rgba(0, 0, 0, .5);
@@ -282,7 +279,7 @@ input[type="email"] {
 
 input[type="submit"] {
   background: $brand-color;
-  color: white;
+  color: black;
   font-weight: 700;
   margin-top: .5rem;
   cursor: pointer;

@@ -13,10 +13,10 @@
 <div class="wrapper">
   <nav class="site-nav">
       <!-- <a class="page-link">Esta semana</a> -->
-      <a class="page-link" href="/archivo">Archivo</a>
+      <a class="page-link" href="/archivo">/archivo</a>
       {% for my_page in site.pages %}
         {% if my_page.title %}
-        <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
+        <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">/{{ my_page.title }}</a>
         {% endif %}
       {% endfor %}
 

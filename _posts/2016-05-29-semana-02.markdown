@@ -4,6 +4,25 @@ title:  "Semana 02"
 date:   2016-05-29 21:50:00
 categories: jekyll update
 ---
-Hii I am just testing this thing.
+## [Todo lo que necesitas para crear tipografías con acentos](http://diacritics.typo.cz/)  
+[**_diacritics.typo.cz (Inglés)_**](http://diacritics.typo.cz/)
 
-Bye!
+---
+
+## [Tipografía Universal](http://universaltypography.com/)  
+[**_universaltypography.com (Inglés)_**](http://universaltypography.com/)
+
+---
+
+## [Problemas con el diseño de diacríticos](http://www.sil.org/system/files/reapdata/36/41/09/36410919828090258842878122215150933012/GaultneyThesis_42771.pdf)  
+[**_sil.org  (Inglés) [PDF]_**](http://www.sil.org)
+
+---
+
+## [Accesibilidad y diseño para todos en la ciudad](http://foroalfa.org/articulos/accesibilidad-y-diseno-para-todos-en-la-ciudad)  
+[**_foroalfa.org_**](http://foroalfa.org)
+
+---
+
+## [Hoefler & Co. presentan Operator](http://www.unostiposduros.com/hoefler-co-presentan-operator-su-primera-familia-monoespaciada/)  
+[**_unostiposduros.com_**](http://www.unostiposduros.com)
