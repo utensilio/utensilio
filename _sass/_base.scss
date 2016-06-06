@@ -112,6 +112,21 @@ a {
     }
 }
 
+.site-footer a {
+  color: inherit;
+  &:hover {
+    color: black;
+    .icon > svg path {
+      fill: black;
+    }
+  }
+
+}
+
+.site-footer icon > svg path {
+  fill: inherit;
+}
+
 /**
   Links to Utensilios
 */
@@ -195,8 +210,9 @@ pre {
 }
 
 .site-footer .wrapper {
-  background: none;
-  padding: 0 2rem;
+  color: rgba(255,255,255,0.6);
+  background: black;
+  padding: $spacing-unit 2rem;
 }
 
 

@@ -48,9 +48,6 @@
 /**
  * Site footer
  */
-.site-footer {
-    padding: $spacing-unit 0;
-}
 
 .footer-heading {
     font-size: 18px;
@@ -134,7 +131,11 @@
     overflow: hidden;
 
     > li {
-        margin-bottom: $spacing-unit;
+        margin-bottom: 1rem;
+        border-bottom: 1px solid rgba(0,0,0,0.1);
+        &:last-of-type {
+          border-bottom: none;
+        }
     }
 }
 
