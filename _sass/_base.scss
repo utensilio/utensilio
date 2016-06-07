@@ -163,8 +163,6 @@ blockquote {
 pre,
 code {
     font-size: 15px;
-    border: 1px solid $grey-color-light;
-    border-radius: 3px;
     background-color: #eef;
 }
 
@@ -209,10 +207,10 @@ pre {
     }
 }
 
-.site-footer .wrapper {
+.site-footer {
   color: rgba(255,255,255,0.6);
   background: black;
-  padding: $spacing-unit 2rem;
+  padding: 2rem 10%;
 }
 
 
