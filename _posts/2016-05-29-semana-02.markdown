@@ -14,8 +14,8 @@ categories: jekyll update
 
 ---
 
-## [Problemas con el diseño de diacríticos](http://www.sil.org/system/files/reapdata/36/41/09/36410919828090258842878122215150933012/GaultneyThesis_42771.pdf)  
-[**_sil.org  (Inglés) [PDF]_**](http://www.sil.org)
+## [Mallory: a transatlantic sans](https://frerejones.com/families/mallory)  
+[**_frerejones.com  (Inglés)_**](https://frerejones.com)
 
 ---
 

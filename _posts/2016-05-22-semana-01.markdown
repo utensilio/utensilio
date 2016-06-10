@@ -9,8 +9,8 @@ categories: jekyll update
 
 ---
 
-## [Tipografía Universal](http://universaltypography.com/)  
-[**_universaltypography.com (Inglés)_**](http://universaltypography.com/)
+## [Gerrit Noordzij: Dibujando](https://vimeo.com/10521941)  
+[**_vimeo.com (Inglés)_**](https://vimeo.com/user952774)
 
 ---
 
@@ -24,5 +24,5 @@ categories: jekyll update
 
 ---
 
-## [Sexismo y Tipografía](http://donserifa.com/articulos/sexismo-y-tipografia/)  
-[**_donserifa.com_**](http://donserifa.com)
+## [El dao del diseño web](http://alistapart.com/article/dao)   
+[**_alistapart.com (Inglés)_**](http://alistapart.com)
